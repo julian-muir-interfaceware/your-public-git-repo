@@ -1,0 +1,27 @@
+<channel
+   name="Fleet Manager QA test code"
+   guid="2F82FEC6F1CC0797BC1095409158C12A"
+   description="Channel for Fleet Manager QA tests "
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Fleet_Manager_QA_test_code-From-BoQrDlxA9QLiwY"
+      commit_id="fb71661364939715689b1378a6d5c7ca80832bf8"
+      commit_comment="binary sample – from file"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
